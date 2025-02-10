@@ -15,14 +15,3 @@ dist/
 
 # Misc
 .DS_Store
-
-# Nuxt dev/build outputs
-.output
-.data
-.nuxt
-.nitro
-.cache
-
-# Logs
-logs
-*.log

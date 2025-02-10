@@ -1,0 +1,31 @@
+{
+  "name": "workout-tracker-ui",
+  "version": "1.0.0",
+  "description": "Workout Tracker UI",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "author": "Sergio Medina Valentín",
+  "license": "MIT",
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.9.0",
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0",
+    "moment": "^2.30.1",
+    "nuxt": "^3.15.4",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "sass": "^1.84.0",
+    "vite-plugin-vuetify": "^2.1.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue-toastify": "^2.0.1",
+    "vuetify": "^3.7.11"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": ".",   // 🔹 Ahora compila desde la raíz del backend
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false
+  },
+  "include": ["src", "config"],   // 🔹 Incluye la carpeta config en la compilación
+  "exclude": ["node_modules"]
+}
